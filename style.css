@@ -123,11 +123,18 @@ h5 {
     text-shadow: 2px 2px 4px #000000;
     font-family: 'Cherry Swash', cursive;
 }
-aside {
+article {
     width: 380px;
     height: 600px;
     margin-top: 100px;
     display: inline-block;
+    padding: 10px;
+}
+aside {
+    width: 380px;
+    height: 600px;
+    margin-top: 10px;
+    display: inline;
     padding: 10px;
 }
 
@@ -142,8 +149,10 @@ aside {
 }
 
 main {
+    position: absolute;
     display: inline-block;
     height: 800px;
+    width: 1800px;
 }
 
 
@@ -162,6 +171,7 @@ img {
 }
 
 .pie {
+    margin-top: 1200px;
     bottom: 10px;
     width: 100%;
     text-align: justify;
@@ -210,11 +220,7 @@ textarea {
 }
 
 
-section, aside {
-    height: 100%;
-    position: relative;
-    display: inline-block;
-}
+
 
 form {
     position: relative;
