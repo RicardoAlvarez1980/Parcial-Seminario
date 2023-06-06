@@ -155,6 +155,12 @@ main {
     width: 1800px;
 }
 
+#nosotros {
+    
+    display: inline-block;
+    height: 800px;
+    width: 800px;
+}
 
 img {
     margin-top: 10px;
